@@ -1,0 +1,19 @@
+{
+  "name": "asso",
+  "version": "1.0.0",
+  "description": "Static website with HTML, CSS/Sass and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/css/src/main.scss:./assets/css/dist/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anett67/asso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anett67/asso/issues"
+  },
+  "homepage": "https://github.com/Anett67/asso#readme"
+}
