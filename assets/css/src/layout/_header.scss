@@ -1,3 +1,28 @@
 .navbar-brand img{
     width: 30px;
 }
+
+#slider{
+    position: relative;
+
+    .homepage-title{
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 5%;
+        font-size: 2rem;
+
+        @media (min-width: 640px){
+            font-size: 3rem;
+        }
+    }
+
+    .carousel-item{
+        filter: brightness(.7);
+    }
+
+}
+
