@@ -11,36 +11,73 @@
     <title>Club Alpin Bordeaux</title>
 </head>
 <body>
+
     <header>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-          <div class="container-fluid">
-              <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="./assets/img/mountain.png" class="mr-2" alt="Image des montagnes">
-                Club Alpin Bordeaux
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                  <ul class="navbar-nav mt-2 mt-lg-0 ">
-                      <li class="nav-item">
-                          <a class="nav-link text-right active" aria-current="page" href="index.html">Accueil</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-right" href="evenements.html">Événements</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-right" href="contact.html">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-right" href="#">
-                              <i class="fab fa-facebook-f"></i>
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./assets/img/mountain.png" class="mr-2" alt="Image des montagnes">
+                    Club Alpin Bordeaux
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mt-2 mt-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-right text-success active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-right" href="evenements.html">Événements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-right" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-right" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="slider">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <picture>
+                            <source srcset="assets/img/slider1--large.jpg 1920w" media="(min-width: 1380px)">
+                            <source srcset="assets/img/slider1--medium--marked.jpg 1380w" media="(min-width: 768px)">
+                            <source srcset="assets/img/slider1--small--marked.jpg 990w" media="(min-width: 640px)">
+                            <img class="w-100" srcset="assets/img/slider1--xsmall.jpg 640w" alt="Sortie dans les montagnes">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="assets/img/slider2--large.jpg 1920w" media="(min-width: 1380px)">
+                            <source srcset="assets/img/slider2--medium--marked.jpg 1380w" media="(min-width: 768px)">
+                            <source srcset="assets/img/slider2--small--marked.jpg 990w" media="(min-width: 640px)">
+                            <img class="w-100" srcset="assets/img/slider2--xsmall.jpg 640w" alt="Sortie dans les montagnes">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="assets/img/slider3--large.jpg 1920w" media="(min-width: 1380px)">
+                            <source srcset="assets/img/slider3--medium--marked.jpg 1380w" media="(min-width: 768px)">
+                            <source srcset="assets/img/slider3--small--marked.jpg 990w" media="(min-width: 640px)">
+                            <img class="w-100" srcset="assets/img/slider3--xsmall.jpg 640w" alt="Sortie dans les montagnes">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
+
+
+
+    
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </html>
