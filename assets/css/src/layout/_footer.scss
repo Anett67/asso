@@ -1,0 +1,20 @@
+footer{
+    padding: 50px 5%;
+
+    @media (min-width: 990px){
+        display: flex;
+        align-items: center;
+    }
+}
+
+.footer-menu{
+    
+    .nav-item .nav-link{
+        color: white;
+    }
+
+    @media (min-width: 990px){
+        flex-direction: row;
+    }
+} 
+
