@@ -40,6 +40,10 @@ p{
 .badge{
     font-size: 1rem;
     font-weight: 400;
+
+    &.badge-event{
+        font-size: .8rem;
+    }
 }
 
 #contact-info i{
