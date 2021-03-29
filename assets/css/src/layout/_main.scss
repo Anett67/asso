@@ -14,3 +14,11 @@ section{
     width: 100px;
 }
 
+table,
+.price-info{
+    max-width: 700px;
+
+    th{
+        max-width: 100px;
+    }
+}
