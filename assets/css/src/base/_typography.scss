@@ -22,6 +22,12 @@ h2{
     }
 }
 
+h5{
+    @media (min-width: 640px){
+        font-size: 1.5rem;
+    }
+}
+
 p{
     line-height: 1.8rem;
     
@@ -34,4 +40,8 @@ p{
 .badge{
     font-size: 1rem;
     font-weight: 400;
+}
+
+#contact-info i{
+    font-size: 1.5rem;
 }
