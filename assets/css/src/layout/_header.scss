@@ -53,6 +53,18 @@
             background-image: url('../../img/slider2--large.jpg');
         }
     }
+
+    &.events{
+        background-image: url('../../img/slider3--small.jpg');
+
+        @media (min-width: 990px){
+            background-image: url('../../img/slider3--medium.jpg');
+        }
+
+        @media (min-width: 1920px){
+            background-image: url('../../img/slider3--large.jpg');
+        }
+    }
 }
 
 
